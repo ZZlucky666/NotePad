@@ -53,6 +53,7 @@
 		B92430B21E126B9400E66763 /* NotePadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotePadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B92430B61E126B9400E66763 /* NotePadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotePadUITests.m; sourceTree = "<group>"; };
 		B92430B81E126B9400E66763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B92430D01E176D9800E66763 /* NotePad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NotePad-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +121,7 @@
 		B924308E1E126B9300E66763 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B92430D01E176D9800E66763 /* NotePad-Prefix.pch */,
 				B924308F1E126B9300E66763 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -210,7 +212,7 @@
 				TargetAttributes = {
 					B924308A1E126B9300E66763 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = LAS8P9UEUE;
+						DevelopmentTeam = 2QUQNU7965;
 						ProvisioningStyle = Automatic;
 					};
 					B92430A61E126B9300E66763 = {
@@ -429,7 +431,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = LAS8P9UEUE;
+				DEVELOPMENT_TEAM = 2QUQNU7965;
+				GCC_PREFIX_HEADER = "NotePad/NotePad-Prefix.pch";
 				INFOPLIST_FILE = NotePad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.online.NotePad;
@@ -441,7 +444,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = LAS8P9UEUE;
+				DEVELOPMENT_TEAM = 2QUQNU7965;
+				GCC_PREFIX_HEADER = "NotePad/NotePad-Prefix.pch";
 				INFOPLIST_FILE = NotePad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.online.NotePad;
@@ -518,6 +522,7 @@
 				B92430BD1E126B9400E66763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B92430BE1E126B9400E66763 /* Build configuration list for PBXNativeTarget "NotePadTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				B92430C01E126B9400E66763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B92430C11E126B9400E66763 /* Build configuration list for PBXNativeTarget "NotePadUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				B92430C31E126B9400E66763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -16,6 +16,11 @@
 		B92430A11E126B9300E66763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B924309F1E126B9300E66763 /* LaunchScreen.storyboard */; };
 		B92430AC1E126B9300E66763 /* NotePadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B92430AB1E126B9300E66763 /* NotePadTests.m */; };
 		B92430B71E126B9400E66763 /* NotePadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B92430B61E126B9400E66763 /* NotePadUITests.m */; };
+		B92430D21E1A835500E66763 /* Category in Resources */ = {isa = PBXBuildFile; fileRef = B92430D11E1A835500E66763 /* Category */; };
+		B92430D91E1A845100E66763 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B92430D71E1A845100E66763 /* MainTableViewCell.m */; };
+		B92430DA1E1A845100E66763 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B92430D81E1A845100E66763 /* MainTableViewCell.xib */; };
+		B92430DD1E1A961D00E66763 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B92430DC1E1A961D00E66763 /* AddViewController.m */; };
+		B92430E01E1A98A800E66763 /* TargetEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = B92430DF1E1A98A800E66763 /* TargetEditView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,14 @@
 		B92430B61E126B9400E66763 /* NotePadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotePadUITests.m; sourceTree = "<group>"; };
 		B92430B81E126B9400E66763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B92430D01E176D9800E66763 /* NotePad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NotePad-Prefix.pch"; sourceTree = "<group>"; };
+		B92430D11E1A835500E66763 /* Category */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Category; sourceTree = "<group>"; };
+		B92430D61E1A845100E66763 /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		B92430D71E1A845100E66763 /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		B92430D81E1A845100E66763 /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		B92430DB1E1A961D00E66763 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		B92430DC1E1A961D00E66763 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		B92430DE1E1A98A800E66763 /* TargetEditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetEditView.h; sourceTree = "<group>"; };
+		B92430DF1E1A98A800E66763 /* TargetEditView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetEditView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +119,10 @@
 			children = (
 				B92430911E126B9300E66763 /* AppDelegate.h */,
 				B92430921E126B9300E66763 /* AppDelegate.m */,
-				B92430941E126B9300E66763 /* ViewController.h */,
-				B92430951E126B9300E66763 /* ViewController.m */,
+				B92430D51E1A840100E66763 /* Models */,
+				B92430D41E1A83F800E66763 /* Controllers */,
+				B92430D31E1A83EC00E66763 /* Views */,
+				B92430D11E1A835500E66763 /* Category */,
 				B92430971E126B9300E66763 /* Main.storyboard */,
 				B924309D1E126B9300E66763 /* Assets.xcassets */,
 				B924309F1E126B9300E66763 /* LaunchScreen.storyboard */,
@@ -143,6 +158,36 @@
 				B92430B81E126B9400E66763 /* Info.plist */,
 			);
 			path = NotePadUITests;
+			sourceTree = "<group>";
+		};
+		B92430D31E1A83EC00E66763 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B92430D61E1A845100E66763 /* MainTableViewCell.h */,
+				B92430D71E1A845100E66763 /* MainTableViewCell.m */,
+				B92430D81E1A845100E66763 /* MainTableViewCell.xib */,
+				B92430DE1E1A98A800E66763 /* TargetEditView.h */,
+				B92430DF1E1A98A800E66763 /* TargetEditView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B92430D41E1A83F800E66763 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B92430941E126B9300E66763 /* ViewController.h */,
+				B92430951E126B9300E66763 /* ViewController.m */,
+				B92430DB1E1A961D00E66763 /* AddViewController.h */,
+				B92430DC1E1A961D00E66763 /* AddViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B92430D51E1A840100E66763 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +301,9 @@
 			files = (
 				B92430A11E126B9300E66763 /* LaunchScreen.storyboard in Resources */,
 				B924309E1E126B9300E66763 /* Assets.xcassets in Resources */,
+				B92430D21E1A835500E66763 /* Category in Resources */,
 				B92430991E126B9300E66763 /* Main.storyboard in Resources */,
+				B92430DA1E1A845100E66763 /* MainTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,8 +330,11 @@
 			files = (
 				B92430961E126B9300E66763 /* ViewController.m in Sources */,
 				B92430931E126B9300E66763 /* AppDelegate.m in Sources */,
+				B92430DD1E1A961D00E66763 /* AddViewController.m in Sources */,
 				B92430901E126B9300E66763 /* main.m in Sources */,
 				B924309C1E126B9300E66763 /* NotePad.xcdatamodeld in Sources */,
+				B92430E01E1A98A800E66763 /* TargetEditView.m in Sources */,
+				B92430D91E1A845100E66763 /* MainTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

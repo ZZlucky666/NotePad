@@ -16,8 +16,6 @@
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
-#import "UIView+Extension.h"
-#import "UIBarButtonItem+Extension.h"
 
 #ifdef DEBUG // 处于开发阶段
 #define MyLog(...) NSLog(__VA_ARGS__)
@@ -38,6 +36,6 @@
 #define SCREEN_WIDTH            [[UIScreen mainScreen] bounds].size.width
 #define SCREEN_HEIGHT           [[UIScreen mainScreen] bounds].size.height
 
-#define COLLOR_ARRAY [NSMutableArray arrayWithObjects:UIColorFromRGB(0x2ACF5D), UIColorFromRGB(0xFF4E9B),UIColorFromRGB(0xAA76FF),UIColorFromRGB(0xFFA91F),UIColorFromRGB(0xFF7171),UIColorFromRGB(0x68C2FF),UIColorFromRGB(0x5BE5E9), nil]
+#define COLLOR_ARRAY [NSMutableArray arrayWithObjects:UIColorFromRGB(0x08C2FA), UIColorFromRGB(0x14A9F7),UIColorFromRGB(0x1F8FF2),UIColorFromRGB(0x2B76EF),UIColorFromRGB(0x365EEC),UIColorFromRGB(0x4349E9),UIColorFromRGB(0x6746E5), UIColorFromRGB(0x8845E2),UIColorFromRGB(0xA944DF),UIColorFromRGB(0xCA42DC), UIColorFromRGB(0xE942D7),UIColorFromRGB(0xEB63B3),UIColorFromRGB(0xEB8390), UIColorFromRGB(0xEDA46C),UIColorFromRGB(0xEEC44A),UIColorFromRGB(0xEAE128), UIColorFromRGB(0xCADA29),UIColorFromRGB(0xA5D22A),UIColorFromRGB(0x80CA2B), UIColorFromRGB(0x5EC22C),UIColorFromRGB(0x38BB33),UIColorFromRGB(0x2CC15D), UIColorFromRGB(0x21C682),UIColorFromRGB(0x17CCAC),UIColorFromRGB(0x0BD2D9), UIColorFromRGB(0x0ECAEC),nil]
 
 #endif
